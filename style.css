@@ -1,0 +1,83 @@
+ * {
+        font-family: "Sora", sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #fafaf9;
+        height: 100vh;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+
+      .wrapper {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card {
+        background-color: #ffffff;
+        width: 336px;
+        padding: 16px 16px 20px 16px;
+        border-radius: 16px;
+        box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+      }
+
+      img {
+        width: 100%;
+        height: 152px;
+        object-fit: cover;
+        border-radius: 6px;
+      }
+
+      .tag {
+        font-weight: bold;
+        color: #7c19ee;
+        background-color: #f2eafd;
+        display: inline-block;
+        padding: 6px 16px 6px 16px;
+        border-radius: 9999px;
+        font-size: 0.625rem;
+        margin-top: 16px;
+      }
+
+      .title {
+        color: #20293a;
+        font-weight: bold;
+        font-size: 1.125rem;
+        margin-bottom: 6px;
+        margin-top: 16px;
+      }
+
+      .body {
+        margin-bottom: 20px;
+        color: #394150;
+        font-size: 0.875rem;
+        font-weight: 200;
+      }
+
+      .smallText {
+        font-size: 0.75rem;
+        font-weight: 300px;
+      }
+
+      .divider {
+        border: none;
+        border-top: 1px solid #e5eaf0;
+        width: 110%;
+        margin-left: -15px;
+        text-align: center;
+      }
